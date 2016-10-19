@@ -1,0 +1,20 @@
+div.mues1, div.mues2, div.mues3, div.mues4 {
+	position: absolute;
+	top: -100%;
+	/*right: 10%;*/
+	margin: auto;
+	transform: scale(0);
+	opacity: 0;
+	/*background: #fff;*/
+	transition: all .5s ease-in;
+}
+
+.default {	
+	/*left: 0 !important;*/
+	transform: scale(1) !important;
+	opacity: 1 !important;
+	top: 10% !important;
+}
+
+
+
